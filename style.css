@@ -52,7 +52,3 @@ h1{
 #supprBtn>button:hover{
     cursor: pointer;
 }
-
-.hiddenList{
-    visibility: hidden;
-}
