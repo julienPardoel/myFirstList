@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Log In */
+
+#logIn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    background-color:black;
+    height:300px;
+    width: 15%;
+    margin: auto;
+    border-radius: 20px;
+    border: solid 2px red;
+}
+
+#logInDetail{
+    height: 100px;
+}
+
+#logInBtn>button:hover{
+    cursor: pointer;
+}
+
+/* User List */
+
+
+#todoList{
+    background-color: black;
+    width: 15%;
+    height: 500px;
+    border-radius: 20px;
+    border: solid 2px red;
+    text-align: center;
+    margin: auto;
+}
+
+#userList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#supprBtn>button:hover{
+    cursor: pointer;
+}
+
+.hiddenList{
+    visibility: hidden;
+}
