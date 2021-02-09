@@ -47,11 +47,26 @@ h1{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
-#supprBtn>button:hover{
-    cursor: pointer;
+li>button:hover{
+    cursor: pointer;   
 }
 
+li>button:first-child{
+    background-color: black;
+    color: green;
+    border: none;
+}
 
-/* rajout pour test github commit */
+li>button:last-child{
+    background-color: black;
+    color: red;
+    border: none;
+}
+
+#user {
+    width: 100%;
+}
+
