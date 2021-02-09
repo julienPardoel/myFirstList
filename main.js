@@ -26,11 +26,7 @@ const supprButton = document.querySelector('#supprBtn');
 
 
 supprButton.addEventListener('click',(event) =>{
-    // event.preventDefault();
-    // const li = document.removeElement('li');
-    // ul.removeChild(ul);
     console.log('supprimer');
-    // userList.classList.toggle('hiddenList');
     userList.remove(li)
 });
 
