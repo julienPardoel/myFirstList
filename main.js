@@ -59,11 +59,11 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
     }
 
-    if(button.style.color.contains('green')){ // ! ne fonctionne pas
+    // if(button.style.color.contains('green')){ // ! ne fonctionne pas
 
-        button.parentNode.style.color = 'white'; // ! ne fonctionne pas
+        // button.parentNode.style.color = 'white'; // ! ne fonctionne pas
 
-    }
+    // }
 
 });
 
@@ -71,5 +71,30 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
 // rajout test 1.2
 
+// COLOR PICKER
 
+const colorBtn = document.querySelector('#colorBtn');
+const colorBg = document.querySelector('#colorBg')
+const hexaDecimal = [0,1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
+const hexaView = document.querySelector('#hexaView');
 
+colorBtn.addEventListener('click', (e) => {
+
+    const hexaRamdom = []
+
+    console.log(hexaRamdom)
+
+    for(let i = 0; i<6; i++){
+
+        let hexaCalcul = hexaDecimal[Math.floor(Math.random()*hexaDecimal.length)];
+
+        hexaRamdom.push(hexaCalcul);
+    }
+
+    const hexaColor = hexaRamdom.join('');
+
+    colorBg.style.background = `#${hexaColor}`;
+    
+    hexaView.innerText = `#${hexaColor}`;
+    
+});

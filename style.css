@@ -1,4 +1,8 @@
-/* TODO LIST */
+/* GENERAL */
+
+header{
+    background-color: black;
+}
 
 body{
     background-color: grey;
@@ -9,6 +13,25 @@ h1{
     text-align: center;
 }
 
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+li{
+    margin-right: 10px;
+}
+
+h2{
+    text-align: center;
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* TODO LIST */
+
 /* Log In */
 
 #logIn{
@@ -18,7 +41,7 @@ h1{
     flex-direction:column;
     background-color:black;
     height:300px;
-    width: 15%;
+    width: 300px;
     margin: auto;
     border-radius: 20px;
     border: solid 2px red;
@@ -37,12 +60,13 @@ h1{
 
 #todoList{
     background-color: black;
-    width: 15%;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     border: solid 2px red;
     text-align: center;
     margin: auto;
+    
 }
 
 #userList{
@@ -50,6 +74,8 @@ h1{
     margin: 0;
     padding: 0;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 li>button:hover{
@@ -75,3 +101,43 @@ li>button:last-child{
 /*  FIN TODO LIST */
 
 /* rajout test 1.2 */
+
+/* COLOR PICKER */
+
+#choiceColor{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border: solid 2px red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorBtn:hover{
+    cursor: pointer;
+}
+
+#colorBg{
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    border: solid 2px red;
+    margin: auto;
+}
+
+#hexaView{
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    border: solid 2px red;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

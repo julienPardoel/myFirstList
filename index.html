@@ -13,31 +13,45 @@
 
     <header>
         <h1>Projet Vanilla</h1>
+
+        <nav>
+            <ul>
+                <li>Todo List</li>
+                <li>Color Picker</li>
+                <li>Our Review</li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
 
         <!-- TODO LIST -->
+        <section>
 
-        <section id="logIn">
+            <h2>Todo list</h2>
 
-            <h2>Créer un compte</h2>
+            <article id="logIn">
 
-            <div id="logInDetail">               
-                <input type="text" placeholder="Pseudo" id="logInPseudo">
-            </div>
+                <h3>Give Your Pseudo</h3>
 
-            <div id="logInBtn">
-                <button>Créer</button>
-            </div>
+                <div id="logInDetail">               
+                    <input type="text" placeholder="Pseudo" id="logInPseudo">
+                </div>
+
+                <div id="logInBtn">
+                    <button>Send !</button>
+                </div>
                         
-        </section>
+            </article>
 
-        <section id="todoList">
+            <article id="todoList">
 
-            <h2>Liste</h2>
+                <h3>Liste</h3>
 
-            <ul id="userList"></ul>
+                <ul id="userList"></ul>
+
+            </article>
 
         </section>
 
@@ -45,11 +59,33 @@
 
         <!-- rajout test 1.2 -->
 
+        <!-- COLOR PICKER -->
+
+        <section>
+
+            <h2>Color Picker</h2>
+
+            <article id="choiceColor">
+
+                <button id="colorBtn">Random Color</button>
+
+            </article>
+
+            <article id="colorBg">
+
+            </article>
+
+            <p id="hexaView">#Code Hexadecimal</p>
+            
+        </section>
+
+        <!-- FIN COLOR PICKER -->
+
     </main>
 
     
     
-    <script src="../main.js" defer></script>
+    <script src="main.js" defer></script>
 </body>
 
 </html>
