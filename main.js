@@ -1,9 +1,15 @@
+//TODO LIST :
+
+// Constantes :
+
 const addButton = document.querySelector('#logInBtn');
 const userList = document.querySelector('#userList');
 const logInPseudo = document.querySelector('#logInPseudo');
 const li = document.createElement('li');
 
-li.appendChild(document.createTextNode(`${logInPseudo.value}`));
+// ...
+
+li.appendChild(document.createTextNode(`${logInPseudo.value}`)); // ... ?
 
 addButton.addEventListener('click',(event) =>{ // Au click sur le bouton créer ...
 
@@ -26,10 +32,10 @@ addButton.addEventListener('click',(event) =>{ // Au click sur le bouton créer 
         checkBtn.className = "checkBtn"; // ... donne une class à l'élement
         supprBtn.className = "supprBtn"; // ... donne une class à l'élement
         
-        li.appendChild(checkBtn); // ... 
-        li.appendChild(supprBtn); // ...
+        li.appendChild(checkBtn); // ... ?
+        li.appendChild(supprBtn); // ... ?
 
-        userList.appendChild(li); // ...
+        userList.appendChild(li); // ... ?
 
     }
 
@@ -59,11 +65,9 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
     }
 
-
-
 });
 
-
+// FIN TODO LIST
 
 
 
