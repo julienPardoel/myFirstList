@@ -1,4 +1,7 @@
 /* GENERAL */
+*{
+    margin: 0;
+}
 
 header{
     background-color: black;
@@ -20,7 +23,7 @@ ul{
     font-size: 1.5rem;
 }
 
-li{
+nav>ul>li{
     margin-right: 10px;
 }
 
@@ -28,6 +31,17 @@ h2{
     text-align: center;
     color: darkred;
     text-decoration: underline;
+}
+
+section{
+    height: 900px;
+    text-align: center;
+}
+
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* TODO LIST */
@@ -61,7 +75,7 @@ h2{
 #todoList{
     background-color: black;
     width: 300px;
-    height: 500px;
+    height: 300px;
     border-radius: 20px;
     border: solid 2px red;
     text-align: center;
@@ -122,8 +136,8 @@ li>button:last-child{
 
 #colorBg{
     background-color: black;
-    width: 600px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
     border: solid 2px red;
     margin: auto;
@@ -140,4 +154,55 @@ li>button:last-child{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+
+/* FIN COLOR PICKER */
+
+/* OUR REVIEWS */
+
+.chevron{
+    font-size: 3rem;
+}
+
+.chevron:hover{
+    cursor: pointer;
+}
+
+#caroussel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: darkred;
+}
+
+#userProfil{
+    text-align: center;
+    /* background-color: black; */
+    width:60%;
+    overflow: hidden;
+}
+
+#userPicture{
+    height: 300px;
+}
+
+#userName{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#userJob{
+    font-size: 20px;
+}
+
+.fa-random{
+    font-size: 3rem;
+    color: darkred;
+    margin-top: 50px;
+
+}
+
+.fa-random:hover{
+    cursor: pointer;
 }
