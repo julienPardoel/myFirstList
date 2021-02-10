@@ -51,11 +51,13 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
         button.parentNode.style.color = 'green'; // ... la couleur du text du parent devient vert
 
-    }else if(button.parentNode.style.color = 'green'){ // ... si la couleur du text du parent est vert
+    }
 
-        button.parentNode.style.color = 'white'; // ... la couleur du text du parent devient blanche
+    if(button.style.color.contains('green')){ // ! ne fonctionne pas
 
-    };
+        button.parentNode.style.color = 'white'; // ! ne fonctionne pas
+
+    }
 
 
 
