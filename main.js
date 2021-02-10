@@ -69,5 +69,7 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
 // FIN TODO LIST
 
+// rajout test 1.2
+
 
 
