@@ -56,15 +56,16 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
     if(button.classList.contains('checkBtn')){ //... si la variable button contient la class checkBtn
 
         button.parentNode.style.color = "green"; // ... la couleur du text du parent devient vert
+        
+        button.className = "validate" // ... n'ajoute pas mais change la class "checkBtn" du button en "validate"
 
-        button.parentNode.className = "validate";
-    };
+    }else if(button.classList.contains('validate')){ // ...si la variable contient la class validate
+    
+        button.parentNode.style.color = "white"; // ...la couleur du text devient blanche
 
-    if(button.classList.contains('validate')){ 
-
-        button.parentNode.style.color = "white";
-
-    };
+        button.className = "checkBtn"; // ...n'ajoute pas mais change la class "validate" du button en class "checkBtn" pour retourner dans la condition initiale
+    
+    }
 
 });
 
@@ -121,7 +122,7 @@ const userProfil = [
     picture:
         "https://media.anakinworld.com/uploads/entries/original/chewbacca-8f891de8afc396fe13b822a72f428ee52923fe8e.jpeg",
     citation:
-        "Rrwwgawwrrggawwrr",
+        "Rrwwgawwrrggawwrr !!!",
     },
     {
     id: 3,
@@ -130,7 +131,7 @@ const userProfil = [
     picture:
         "https://cdn-media2.planete-starwars.com/news/63267-maxresdefault-169-lg.jpg?w=768&f=w",
     citation:
-        "Eskiousez-moé.",
+        "Eskiousez-moé !",
     },
     {
     id: 4,
@@ -146,7 +147,7 @@ const userProfil = [
     name: "YODA",
     job: "Maître Jedi",
     picture: "https://www.fantastic-modelers.fr/wp-content/uploads/2018/01/wip09-1-650x487.jpg",
-    citation: "Quand 900 ans comme moi tu auras, moins en forme tu seras",
+    citation: "Quand 900 ans comme moi tu auras, moins en forme tu seras !",
     },
 ]
 
