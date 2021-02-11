@@ -55,15 +55,16 @@ userList.addEventListener('click',(event) => { // au click sur un élement de li
 
     if(button.classList.contains('checkBtn')){ //... si la variable button contient la class checkBtn
 
-        button.parentNode.style.color = 'green'; // ... la couleur du text du parent devient vert
+        button.parentNode.style.color = "green"; // ... la couleur du text du parent devient vert
 
-    }
+        button.parentNode.className = "validate";
+    };
 
-    // if(button.style.color.contains('green')){ // ! ne fonctionne pas
+    if(button.classList.contains('validate')){ 
 
-        // button.parentNode.style.color = 'white'; // ! ne fonctionne pas
+        button.parentNode.style.color = "white";
 
-    // }
+    };
 
 });
 
