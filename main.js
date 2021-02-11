@@ -105,41 +105,48 @@ colorBtn.addEventListener('click', (e) => { // Au click sur le bouton colorBtn .
 
 const userProfil = [
     {
-        id: 1,
-        name: "TITOUAN",
-        job: "Web-Developer",
-        picture:
-          "https://www.vanityfair.fr/uploads/images/thumbs/201905/fb/vf_main_ted_bundy_5142.jpeg_north_1160x474_.jpg",
-        citation:
-          "Euh... je sais pas comment dire... mais tu vois ce que je veux dire, non ?",
-      },
-      {
-        id: 2,
-        name: "CHEWBACCA",
-        job: "Contrebandier",
-        picture:
-          "https://media.anakinworld.com/uploads/entries/original/chewbacca-8f891de8afc396fe13b822a72f428ee52923fe8e.jpeg",
-        citation:
-          "Rrwwgawwrrggawwrr",
-      },
-      {
-        id: 3,
-        name: "JAR JAR BINKS",
-        job: "Politique",
-        picture:
-          "https://static.wikia.nocookie.net/frstarwars/images/9/9d/Jar_Jar_Binks.jpg/revision/latest?cb=20160325193844",
-        citation:
-          "Eskiousez-moé.",
-      },
-      {
-        id: 4,
-        name: "C3PO",
-        job: "Droïde-Protocole",
-        picture:
-          "https://radiodisneyclub.fr/wp-content/uploads/2019/10/C3PO.jpg",
-        citation:
-          "Dieu me débranche ! Des machines qui créent des machines !",
-      },
+    id: 1,
+    name: "TITOUAN",
+    job: "Web-Developer",
+    picture:
+        "https://www.vanityfair.fr/uploads/images/thumbs/201905/fb/vf_main_ted_bundy_5142.jpeg_north_1160x474_.jpg",
+    citation:
+        "Euh... je sais pas comment dire... mais tu vois ce que je veux dire, non ?",
+    },
+    {
+    id: 2,
+    name: "CHEWBACCA",
+    job: "Contrebandier",
+    picture:
+        "https://media.anakinworld.com/uploads/entries/original/chewbacca-8f891de8afc396fe13b822a72f428ee52923fe8e.jpeg",
+    citation:
+        "Rrwwgawwrrggawwrr",
+    },
+    {
+    id: 3,
+    name: "JAR JAR BINKS",
+    job: "Politique",
+    picture:
+        "https://cdn-media2.planete-starwars.com/news/63267-maxresdefault-169-lg.jpg?w=768&f=w",
+    citation:
+        "Eskiousez-moé.",
+    },
+    {
+    id: 4,
+    name: "C3PO",
+    job: "Droïde-Protocole",
+    picture:
+        "https://radiodisneyclub.fr/wp-content/uploads/2019/10/C3PO.jpg",
+    citation:
+        "Dieu me débranche ! Des machines qui créent des machines !",
+    },
+    {
+    id: 5,
+    name: "YODA",
+    job: "Maître Jedi",
+    picture: "https://www.fantastic-modelers.fr/wp-content/uploads/2018/01/wip09-1-650x487.jpg",
+    citation: "Quand 900 ans comme moi tu auras, moins en forme tu seras",
+    },
 ]
 
 const rightBtn = document.querySelector('.fa-chevron-circle-right');

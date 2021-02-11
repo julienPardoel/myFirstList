@@ -36,6 +36,7 @@ h2{
 section{
     height: 900px;
     text-align: center;
+    padding-top: 200px;
 }
 
 #welcome{
@@ -177,9 +178,9 @@ li>button:last-child{
 
 #userProfil{
     text-align: center;
-    /* background-color: black; */
     width:60%;
     overflow: hidden;
+    /* transition: all ease-in-out 2s; */
 }
 
 #userPicture{
@@ -193,6 +194,10 @@ li>button:last-child{
 }
 
 #userJob{
+    font-size: 20px;
+}
+
+#userComment{
     font-size: 20px;
 }
 
